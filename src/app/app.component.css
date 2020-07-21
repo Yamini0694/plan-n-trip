@@ -1,0 +1,129 @@
+#cover {
+    display: flex;
+}
+
+#list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 50%;
+}
+
+#calendar {
+    width: 40%;
+    height: 86vh;
+}
+
+.list-item {
+    width: 18vw;
+    border-radius: 4px;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    color: black;
+    text-align: center;
+    padding: 3%;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.title:focus {
+    outline: none;
+}
+
+.bodyText {
+    display: flex;
+    padding: 3%;
+    flex-direction: column;
+    font-family: sans-serif;
+    border-radius: 2px 0px 15px 15px;
+}
+
+.image {
+    height: 19vh;
+    width: 100%;
+}
+
+.label-box {
+    font-size: 14px;
+    margin-top: 1%;
+}
+
+#comment-box {
+    font-size: 14px;
+    margin-top: 4%;
+}
+
+#comment {
+    color: grey;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 13px;
+}
+
+#comment:focus {
+    outline: none;
+}
+
+#start {
+    color: grey;
+    margin-top: 1%;
+    font-size: 13px;
+}
+
+#duration {
+    color: grey;
+    margin-top: 1%;
+    font-size: 13px;
+}
+
+.action-div {
+    text-align: end;
+}
+
+.btns {
+    background: #a9a9a936;
+    margin-top: 3%;
+    padding: 0.5em 1.2em;
+    color: grey;
+    border: none;
+    margin-left: 2%;
+    border-radius: 50px;
+}
+
+.btns:hover {
+    cursor: pointer;
+    background: #a9a9a97a;
+    color: black;
+}
+
+.btns:focus {
+    outline: none;
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    background: #53a6dc6b;
+    border-radius: 80%;
+    width: 20px;
+    margin: 3%;
+    padding: 2%;
+}
+
+.text-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+#pagination-box {
+    position: fixed;
+    top: 92%;
+    left: 11%;
+}

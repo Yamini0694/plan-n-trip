@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  baseUrl:
+    "http://detangled.in/develop/e04386b5-d9e0-4b0a-913c-8a387d2d64f0/events",
 };
 
 /*

@@ -1,0 +1,28 @@
+.row {
+    font-size: 21px;
+    font-weight: 600;
+    padding: 2%;
+    width: 79%;
+}
+
+.events-box {
+    display: flex;
+}
+
+.btn-group {
+    display: flex;
+    margin: 2%;
+    width: 35%;
+}
+
+.btn-primary {
+    background: #66abff;
+    padding: 3%;
+    color: white;
+    font-size: 14px;
+    border-left: 1px solid white;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+}
