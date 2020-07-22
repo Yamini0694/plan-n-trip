@@ -27,7 +27,6 @@
     padding: 3%;
     font-size: 21px;
     font-weight: 600;
-    font-family: sans-serif;
     margin-left: 8%;
 }
 
@@ -39,7 +38,6 @@
     display: flex;
     padding: 3%;
     flex-direction: column;
-    font-family: sans-serif;
     border-radius: 2px 0px 15px 15px;
 }
 

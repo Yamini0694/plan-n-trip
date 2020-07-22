@@ -1,14 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+html {
+    font-family: "Roboto", sans-serif;
+}
+
 mwl-calendar-event-title:focus {
-  outline: none !important;
-  text-decoration: none !important;
-  cursor: default !important;
+    outline: none !important;
+    text-decoration: none !important;
+    cursor: default !important;
 }
 
 mwl-calendar-event-title:hover {
-  text-decoration: none !important;
+    text-decoration: none !important;
 }
+
 
 /* .cal-month-view {
   height: 89vh;
@@ -16,9 +22,10 @@ mwl-calendar-event-title:hover {
 } */
 
 .cal-month-view .bg-blue {
-  background-color: #66abff29 !important;
+    background-color: #66abff29 !important;
 }
+
 .cal-month-view .cal-day-badge {
-  background-color: #5ab5e6;
-  color: #fff;
+    background-color: #5ab5e6;
+    color: #fff;
 }
