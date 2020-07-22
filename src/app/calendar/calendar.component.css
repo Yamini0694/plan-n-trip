@@ -7,16 +7,17 @@
 
 .events-box {
     display: flex;
+    margin-bottom: 1%;
 }
 
 .btn-group {
     display: flex;
     margin: 2%;
-    width: 35%;
+    width: 47%;
 }
 
 .btn-primary {
-    background: #66abff;
+    background: #66abffa6;
     padding: 3%;
     color: white;
     font-size: 14px;

@@ -15,9 +15,9 @@ import {
 import { Trip } from "../trip";
 
 const colors: any = {
-  red: {
-    primary: "#ad2121",
-    secondary: "#FAE3E3",
+  blue: {
+    primary: "#5ab5e6",
+    secondary: "#5ab5e6",
   },
 };
 
@@ -73,7 +73,7 @@ export class CalendarComponent implements OnInit {
           element.comment +
           " , Duration:" +
           element.duration,
-        color: colors.red,
+        color: colors.blue,
       };
       this.events.push(calendar);
     });

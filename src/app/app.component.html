@@ -2,9 +2,7 @@
     <div id="list">
         <div class="list-item" *ngFor="let trip of trips | paginate: { itemsPerPage: 6, currentPage: p }">
             <div class="header">
-                <div class="logo">
-                    TP
-                </div>
+                <img class="logo" src="assets/image/logo.jpg" alt="">
                 <div class="title" contenteditable="true" (input)="trip.destination = $event.target.innerText">
                     {{trip.destination}}
                 </div>

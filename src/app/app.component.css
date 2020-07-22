@@ -5,30 +5,30 @@
 #list {
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
+    width: 64%;
     height: 50%;
 }
 
 #calendar {
-    width: 40%;
+    width: 36%;
     height: 86vh;
+    margin-top: 1%;
 }
 
 .list-item {
     width: 18vw;
     border-radius: 4px;
-    margin-left: 1%;
-    margin-bottom: 2%;
+    margin: 2% 2% 1% 1%;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 .title {
     color: black;
-    text-align: center;
     padding: 3%;
     font-size: 21px;
     font-weight: 600;
     font-family: sans-serif;
+    margin-left: 8%;
 }
 
 .title:focus {
@@ -44,7 +44,6 @@
 }
 
 .image {
-    height: 19vh;
     width: 100%;
 }
 
@@ -110,11 +109,10 @@
 }
 
 .logo {
-    background: #53a6dc6b;
-    border-radius: 80%;
-    width: 20px;
-    margin: 3%;
-    padding: 2%;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    margin: 2%;
 }
 
 .text-box {
@@ -123,7 +121,5 @@
 }
 
 #pagination-box {
-    position: fixed;
-    top: 92%;
-    left: 11%;
+    margin-left: 21%;
 }
