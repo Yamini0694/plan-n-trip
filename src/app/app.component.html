@@ -25,11 +25,11 @@
                 </div>
             </div>
         </div>
-        <div id="pagination-box">
-            <pagination-controls (pageChange)="p = $event"></pagination-controls>
-        </div>
     </div>
     <div id="calendar">
         <app-calendar [tripList]="trips"></app-calendar>
     </div>
+</div>
+<div id="pagination-box">
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
 </div>
