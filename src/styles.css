@@ -15,11 +15,16 @@ mwl-calendar-event-title:hover {
     text-decoration: none !important;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-scrollbar-track {
+  display: none;
+}
 
-/* .cal-month-view {
-  height: 89vh;
-  overflow-y: scroll;
-} */
+::-webkit-scrollbar-thumb {
+  display: none;
+}
 
 .cal-month-view .bg-blue {
     background-color: #66abff29 !important;
